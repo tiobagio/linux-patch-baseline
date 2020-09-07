@@ -1,9 +1,13 @@
 # Updated Linux Patch Benchmark
-This security profile is based on Linux Patch Benchmark available on Chef Automate out of the box.  
+This [Inspec](http://inspec.io/) security profile is based on Linux Patch Benchmark available from Chef Automate out of the box.  
 
 
-![Chef Events](Security_compliance.png)
-`available-security-updates` control is added and it lists Security relevant patches that are available and can be applied to the server.
+![Chef Compliance](Security_compliance.png)
+
+
+Control `available-security-updates` lists security relevant patches that are available and can be applied to the server.   It is a subset of `patches` control.
+
+![Chef Compliance2](Security_compliance2.png)
 
 # Linux Patch Benchmark
 
