@@ -1,5 +1,7 @@
 # Updated Linux Patch Benchmark
 This security profile is based on Linux Patch Benchmark available on Chef Automate out of the box.  
+
+
 ![Chef Events](Security_compliance.png)
 `available-security-updates` control is added and it lists Security relevant patches that are available and can be applied to the server.
 
